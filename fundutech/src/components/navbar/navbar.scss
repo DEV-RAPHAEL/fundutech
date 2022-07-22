@@ -2,3 +2,18 @@
 .logo img{
     height: 100%;
 }
+.menu{
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        li{
+            padding: 12px;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+        }
+    }
+    button{
+        align-self: center;
+    }
+}

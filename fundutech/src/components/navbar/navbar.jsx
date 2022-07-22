@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './navbar.css'
 import logo from '../../assets/images/logo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
@@ -15,11 +15,14 @@ const Right = () => (
             <><ul className='flex items-center'>
         <li>About</li>
         <li>Contact</li>
-    </ul><button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button></>
+    </ul></>
 
 )
 const Navbar = () => {
-  
+  const [nav, setNav] = useState(false)
+  const myNav= () =>{
+    setNav(!nav)
+  }
   return (
     
     <div className='w-full h-[90px] bg-black text-white'>
@@ -32,12 +35,25 @@ const Navbar = () => {
             </div>
             <div className=' hidden md:flex'>
                 <Right />
+                <button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button>
             </div>
-            <div className='blcok md:hidden '>
-                <AiOutlineMenu size={30} className="text-[#5FA0E0]" />
+            {/* Hamburger Scope */}
+            <div onClick={myNav} className='blcok md:hidden '>
+                {nav? <AiOutlineClose size={30} className="text-[#5FA0E0]" /> 
+                :<AiOutlineMenu size={30} className="text-[#5FA0E0]" />}
+                
+                
+            </div>
+            {/* Mobile Menu  */}
+            <div className={nav? 'w-full bg-black absolute top-[90px] left-0 h-full menu text-xl'
+            : 'absolute left-[-100%]'}>
+                <Left />
+                <Right/>
+                <center><button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button></center>
             </div>
         </div>
     </div>
+    
   )
 }
 
