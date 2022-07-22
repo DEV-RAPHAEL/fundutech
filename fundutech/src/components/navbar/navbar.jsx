@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './navbar.css'
+import '././style/navbar.css'
 import logo from '../../assets/images/logo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
