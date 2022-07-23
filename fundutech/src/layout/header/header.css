@@ -1,0 +1,7 @@
+.header {
+  background-image: url("../../assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+  background-blend-mode: darken;
+}/*# sourceMappingURL=header.css.map */

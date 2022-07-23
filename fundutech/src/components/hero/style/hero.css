@@ -1,1 +1,7 @@
-/*# sourceMappingURL=hero.css.map */
+.texts {
+  flex-direction: column;
+  justify-content: center;
+}
+.texts h1, .texts p {
+  text-align: center;
+}/*# sourceMappingURL=hero.css.map */

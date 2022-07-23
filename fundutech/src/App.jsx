@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import {Hero, Navbar} from './components'
+import React from 'react'
+import {Header} from './layout'
+import {Volunteer, Register} from "./components"
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
+      <Header />
+      <Volunteer />
+      <Register />
     </div>
   )
 }

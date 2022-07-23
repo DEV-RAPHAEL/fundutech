@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className='hidden md:flex'>
                 <Left />
             </div>
-            <div className='logo h-10 pl-10 md:'>
+            <div className='logo h-10  md:pl-10'>
                 <img src={logo} alt="" />
             </div>
             <div className=' hidden md:flex'>
@@ -38,11 +38,9 @@ const Navbar = () => {
                 <button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button>
             </div>
             {/* Hamburger Scope */}
-            <div onClick={myNav} className='blcok md:hidden '>
+            <div onClick={myNav} className='block md:hidden  '>
                 {nav? <AiOutlineClose size={30} className="text-[#5FA0E0]" /> 
                 :<AiOutlineMenu size={30} className="text-[#5FA0E0]" />}
-                
-                
             </div>
             {/* Mobile Menu  */}
             <div className={nav? 'w-full bg-black absolute top-[90px] left-0 h-full menu text-xl'
