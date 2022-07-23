@@ -2,10 +2,11 @@ import React, {useState} from 'react'
 import '././style/navbar.css'
 import logo from '../../assets/images/logo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Left = () =>(
     <ul className='flex items-center'> 
-    <li>Register</li>
+    <Link to="/"><li>Home</li></Link>
     <li>Gallery</li>
     <li>Past Events</li>
 </ul>
@@ -35,7 +36,7 @@ const Navbar = () => {
             </div>
             <div className=' hidden md:flex'>
                 <Right />
-                <button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button>
+                <Link to="/register"><center><button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>  Get Involved</button></center></Link>
             </div>
             {/* Hamburger Scope */}
             <div onClick={myNav} className='block md:hidden  '>
@@ -47,7 +48,8 @@ const Navbar = () => {
             : 'absolute left-[-100%]'}>
                 <Left />
                 <Right/>
-                <center><button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>Get Involved</button></center>
+                <Link to="/register"><center><button className='bg-gradient-to-r from-[#5FA0E0] to-[#F06CAB] py-2 px-4 rounded-3xl'>  Get Involved</button></center></Link>
+                
             </div>
         </div>
     </div>
