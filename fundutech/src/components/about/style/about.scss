@@ -1,0 +1,9 @@
+.listArea li:before{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-image: url("../../../assets/images/logo.png");
+
+}

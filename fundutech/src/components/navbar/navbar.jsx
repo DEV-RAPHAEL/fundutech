@@ -14,7 +14,7 @@ const Left = () =>(
 
 const Right = () => (
             <><ul className='flex items-center'>
-        <li>About</li>
+    <Link to="/about"><li>About Us</li></Link>
         <li>Contact</li>
     </ul></>
 

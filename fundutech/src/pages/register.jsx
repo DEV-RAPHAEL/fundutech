@@ -1,6 +1,7 @@
 import React from 'react'
 import RegForm from "../components/forms/register"
 import { Navbar} from "../components"
+import {Footer} from "../layout"
 import "./style/style.css"
 
 const Register = () => {
@@ -20,6 +21,7 @@ const Register = () => {
           </div>
     </div>
         <RegForm />
+        <Footer />
     </div>
   )
 }
