@@ -23,13 +23,13 @@ const RegForm = () => {
                 like yourself, we however do need more people to reach more students, all you need is to get to the nearest school 
                 in your neighbourhood and teach, should you are interested in joining these saviours, you are highly welcome.
             </p>
-            <Link to="https://form.jotform.com/222028596571561"><button className='p-2 bg-[#F06CAB]  py-2 px-5 pt-2 rounded-lg  text-white'>Volunteer</button></Link>
-            
-        </div>
+            <a href="https://form.jotform.com/222028596571561"className='p-2 bg-[#F06CAB]  py-2 px-5 pt-2 rounded-lg  text-white'>Volunteer</a>
+
         <img src={volunteer} alt="" className='md:w-[40%] md:h-[100%] h-[60%] rounded-lg'/>
         </div>
          
-    </div>
+        </div>
+        </div>
     )
 }
 

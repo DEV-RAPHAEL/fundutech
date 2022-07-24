@@ -1,6 +1,6 @@
 import React from 'react'
 import RegForm from "../components/forms/register"
-import { Navbar} from "../components"
+import { Navbar, Cta} from "../components"
 import {Footer} from "../layout"
 import "./style/style.css"
 
