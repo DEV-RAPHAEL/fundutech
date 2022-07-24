@@ -3,6 +3,7 @@ import "./style/reg.css"
 import volunteer from "../../assets/images/volunteer.jpg"
 import { Link } from 'react-router-dom'
 import {Cta} from '../../components'
+import {Footer} from '../../layout'
 const RegForm = () => {
     
     return(
@@ -27,6 +28,7 @@ const RegForm = () => {
         </div>
         <img src={volunteer} alt="" className='md:w-[40%] md:h-[100%] h-[60%] rounded-lg'/>
         </div>
+         <Footer />
     </div>
     )
 }

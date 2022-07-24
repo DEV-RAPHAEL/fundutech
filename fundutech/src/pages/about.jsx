@@ -1,5 +1,6 @@
 import React from 'react'
-import {Navbar, About} from '../components'
+import {Navbar, About, Services} from '../components'
+import { Footer } from '../layout'
 import './style/style.css'
 const AboutPage = () => {
   return (
@@ -17,6 +18,8 @@ const AboutPage = () => {
           
          </div>
          <About />
+         <Services />
+         <Footer />
     </div>
     
   )

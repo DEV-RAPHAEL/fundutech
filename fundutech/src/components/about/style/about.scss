@@ -7,3 +7,21 @@
     background-image: url("../../../assets/images/logo.png");
 
 }
+@media screen and (max-width:1200px) {
+    .aboutText{
+        margin-top: 5rem;
+        h1{
+            text-align: center;
+        }
+        p{
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+        ul li{
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+    }
+}

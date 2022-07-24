@@ -13,7 +13,7 @@ const Cta = () => {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="https://dashboard.flutterwave.com/donate/numaldkx1hij"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#5FA0E0] hover:bg-indigo-700"
               >
                 Donate
