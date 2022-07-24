@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <img src={image1} alt=""  className='md:w-[40%] md:h-[50%] md:mt-[50px] md:pr-12 rounded-3xl w-[80%] mt-12 ml-12 ' />
         </div>
-
+            
         </div>
   )
 }

@@ -17,8 +17,8 @@ const AboutPage = () => {
           </div>
           
          </div>
-         <About />
          <Services />
+         <About />
          <Footer />
     </div>
     
