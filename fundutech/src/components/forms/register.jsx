@@ -18,7 +18,7 @@ const RegForm = () => {
         <Cta />
         <div className='mt-[5rem] reg md:flex flex-row-reverse slide-right justify-center h-[80vh] w-full md:p-10 ] md:mt-10'>
         <div className='md:w-[50%] flex flex-col justify-center  p-6' regText>
-            <h1 className='md:text-3xl md:w-[80%] md:mb-6 mb-3 text-lg w-[100%] text-center'>Join the Impact makers (Volunteers)</h1>
+            <h1 className='md:text-3xl md:w-[80%] md:mb-6 mb-3 text-lg w-[100%] text-center ' id="volunteer">Join the Impact makers (Volunteers)</h1>
             <p>We can't achieve this all alone without the help of our active volunteers, yes, people with beautiful hearts just
                 like yourself, we however do need more people to reach more students, all you need is to get to the nearest school 
                 in your neighbourhood and teach, should you are interested in joining these saviours, you are highly welcome.
@@ -28,7 +28,7 @@ const RegForm = () => {
         </div>
         <img src={volunteer} alt="" className='md:w-[40%] md:h-[100%] h-[60%] rounded-lg'/>
         </div>
-         <Footer />
+         
     </div>
     )
 }

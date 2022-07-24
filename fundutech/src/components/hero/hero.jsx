@@ -10,8 +10,12 @@ const Hero = () => {
             experiences and Mentorship.
           </p>
           <div className='hero_buttons mt-10'>
-          <button className='p-4 bg-[#F06CAB]  py-3 px-7 rounded-lg  text-white'>Volunteer</button>
+            <Link to="/register#volunteer">
+            <button className='p-4 bg-[#F06CAB]  py-3 px-7 rounded-lg  text-white'>Volunteer</button>
+            </Link>
+          <Link to="/register#Iyk8JV5W">
           <button className='md:ml-5 p-4 bg-[#5FA0E0] md:py-3 md:px-7 rounded-lg  text-white ml-2 py-3'>Register School</button>
+          </Link>
           </div>
     </div>
   )
