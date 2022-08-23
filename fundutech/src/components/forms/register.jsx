@@ -27,6 +27,7 @@ const RegForm = () => {
         </div>
         <img src={volunteer} alt="" className='md:w-[40%] md:h-[100%] h-[60%] rounded-lg'/>
         </div>
+        
          
     </div>
     )

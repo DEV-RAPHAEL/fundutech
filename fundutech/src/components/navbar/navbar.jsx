@@ -7,14 +7,15 @@ import { Link } from 'react-router-dom'
 const Left = () =>(
     <ul className='flex items-center'> 
     <Link to="/"><li>Home</li></Link>
-    <li>Gallery</li>
-    <li>Past Events</li>
+    <Link to="/#about"><li>About</li></Link>
+
+
 </ul>
 )
 
 const Right = () => (
             <><ul className='flex items-center'>
-    <Link to="/about"><li>About Us</li></Link>
+   
         <li>Contact</li>
     </ul></>
 

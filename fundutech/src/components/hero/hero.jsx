@@ -4,7 +4,7 @@ import { Link} from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className='flex items-center texts min-h-[85vh] md:max-w-[full] text-[#5FA0E0] p-10 '>
+    <div className='flex items-center texts min-h-[85vh] md:max-w-[full] text-[#5FA0E0] p-10  '>
           <h1 className='text-4xl max-w-[40%] text-white min-w-[100%] '>Eradicating Tech Illiteracy <span className='text-[#F06CAB]'>Among Teenagers</span></h1>
           <p className='text-white mt-5 max-w-[80%]'>Talk Tech Project is a set up to visit schools and talk to students about Technology, Including hands-on
             experiences and Mentorship.
